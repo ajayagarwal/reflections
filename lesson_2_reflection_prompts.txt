@@ -14,13 +14,28 @@ committed files. The value is that we can double-check before actually committin
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+First we will add the changed files to the staging area using git add. Then
+we will run git diff --staged, and then we can be sure of just one logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When I want to add an update to the software that is not official, or I want add
+documentation or a new language to the SW.
+
 How do the diagrams help you visualize the branch structure?
+
+They are a simple and effective method to view the commits, their parents and all
+the branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+A new tip is created with the name same as the second branch argument in the
+command. It is represented this way so that the commits are not lost.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+We can take care of crtical code changes ourselves. And the trivial changes
+can be handled by Git.
