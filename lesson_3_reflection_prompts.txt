@@ -12,3 +12,7 @@ Forking means copying a Github repository to your own Github account.
 Cloning means downloading a Guthub repo to your local machine.
 Branching means making a new head for the commits.
 Use as per requirement.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+So that we are always close to the remote, and we have a working directory to start with.
