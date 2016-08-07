@@ -5,3 +5,10 @@ When I do not want to waste time in committing via command line.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 I want to have the choice to reflect the changes on Github to my local directory.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forking means copying a Github repository to your own Github account.
+Cloning means downloading a Guthub repo to your local machine.
+Branching means making a new head for the commits.
+Use as per requirement.
